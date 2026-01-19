@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KD Nutri Food Pvt Ltd - Premium Food Oils & Khal</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #2c3e50; color: white; padding: 20px; text-align: center; }
+        nav { background-color: #34495e; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 20px; max-width: 1200px; margin: auto; }
+        .product { border: 1px solid #ddd; padding: 15px; margin: 10px; background: white; }
+        footer { background-color: #2c3e50; color: white; text-align: center; padding: 10px; }
+        form { max-width: 400px; margin: auto; }
+        input, textarea { width: 100%; padding: 10px; margin: 5px 0; }
+        button { background-color: #e74c3c; color: white; padding: 10px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KD Nutri Food Pvt Ltd</h1>
+        <p>Your Trusted Source for All Types of Food Oils and Khal (Bran)</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section id="home">
+        <h2>Welcome to KD Nutri Food</h2>
+        <p>We specialize in high-quality food oils and khal (bran) for cooking, health, and industrial use. From mustard oil to sunflower oil, and premium bran for animal feed, we have it all.</p>
+        <img src="https://via.placeholder.com/800x400?text=Food+Oils+and+Khal" alt="Food Oils and Khal" style="width:100%; max-width:800px;">
+    </section>
+    
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>Food Oils</h3>
+            <p>We offer a wide range: Mustard Oil, Sunflower Oil, Soybean Oil, Coconut Oil, Olive Oil, and more. All sourced for purity and nutrition.</p>
+        </div>
+        <div class="product">
+            <h3>Khal (Bran)</h3>
+            <p>High-quality bran for animal feed, rich in fiber and nutrients. Available in bulk for farmers and industries.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>KD Nutri Food Pvt Ltd is committed to providing nutritious and sustainable food products. Established in [Year], we serve customers nationwide with quality assurance.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: info@kdnutrifood.com | Phone: +91-1234567890 | Address: [Your Address]</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 KD Nutri Food Pvt Ltd. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        // Simple form submission alert (replace with real backend)
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+        });
+    </script>
+</body>
+</html>
